@@ -33,7 +33,7 @@ fn = @(x) gen_redtest(x, u_min, u_max, cl, shapes);
 printf("\nMETHOD\t[   U-  ;   U+  ] (mean ; std)\n");
 
 # calculate 95% expanded uncertainty for expanded uncertainty estimation error
-# in case of using RII method, then print info about all parameters
+# in case of using RIA method, then print info about all parameters
 [up, um] = get_uncertainty(errs_u, 95, false);
 printf("RII:\t[ %0.2f ; %0.2f ] (%0.2f ; %0.2f)\n", um, up, mean(errs_u), std(errs_u));
 

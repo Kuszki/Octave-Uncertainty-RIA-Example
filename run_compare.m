@@ -17,7 +17,7 @@ shapes = "nuts";
 
 # generate `n_err` error signals with random expanded uncertainty values in range
 # of < `u_min` ; `u_max` >, calculate expanded uncertainty `us` based on histogram
-# of resultant error signal, `uc_u` using RII method and `uc_n` assuming CLT is met
+# of resultant error signal, `uc_u` using RIA method and `uc_n` assuming CLT is met
 # us -- expanded uncertainty value based Monte-Carlo simulation resoult
 # uc_u -- expanded uncertainty value estimated using RII method
 # uc_n -- expanded uncertainty value estimated assuming CLT is met

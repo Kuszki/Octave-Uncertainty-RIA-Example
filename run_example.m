@@ -11,7 +11,7 @@ uv = [ 1 5 7 2 ]
 # vector of signal PDF shapes
 cv = "nuts"
 
-# calculate resultant expanded uncertainty using RII algorithm
+# calculate resultant expanded uncertainty using RIA algorithm
 # u -- calculated expanded uncertainty
 # c -- estimated coverage factor
 # s -- calculated standard uncertainty

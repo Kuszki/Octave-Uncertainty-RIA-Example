@@ -20,13 +20,12 @@ The script is an extension of the one contained in the `run_compare` file. For t
 
 ## Requirements
 
-- Recent version of GNU Octave or MATLAB.*
-- Parallel package for GNU Octave.**
+- Recent version of GNU Octave or MATLAB[^1].
+- Parallel package for GNU Octave[^2].
 - Statistics package for GNU Octave.
 
-* MATLAB usage requires minor changes in libraries due to some incompatibility.
-
-** Optional - required to enable parallel computation of the `run_multiple` example.
+[^1]: MATLAB usage requires minor changes in libraries due to some incompatibility.
+[^2]: Optional - required to enable parallel computation of the `run_multiple` example.
 
 ## Credits
 

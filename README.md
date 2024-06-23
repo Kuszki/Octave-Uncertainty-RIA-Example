@@ -16,7 +16,17 @@ This script allows you to compare the results obtained with the discussed method
 
 ### Script `run_multiple`
 
-The script is an extension of the one contained in the `run_compare` file. For the given parameters, it performs the indicated experiment `N' times and outputs the parameters of the relative error in estimating the expanded uncertainty value for the indicated methods, in relation to the results of the Monte-Carlo method.
+The script is an extension of the one contained in the `run_compare` file. For the given parameters, it performs the indicated experiment `N` times and outputs the parameters of the relative error in estimating the expanded uncertainty value for the indicated methods, in relation to the results of the Monte-Carlo method.
+
+## Requirements
+
+- Recent version of GNU Octave or MATLAB.*
+- Parallel package for GNU Octave.**
+- Statistics package for GNU Octave.
+
+* MATLAB usage requires minor changes in libraries due to some incompatibility.
+
+** Optional - required to enable parallel computation of the `run_multiple` example.
 
 ## Credits
 

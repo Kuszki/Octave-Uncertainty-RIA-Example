@@ -1,6 +1,6 @@
 # Octave-Uncertainty-RIA-Example
 
-Example of application Reduced Interval Arithmetic method for estimating resultant expanded uncertainty usign GNU Octave.
+Example of application Reductive Interval Arithmetic method for estimating resultant expanded uncertainty usign GNU Octave.
 
 ## How to use this example
 

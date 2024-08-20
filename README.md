@@ -2,6 +2,10 @@
 
 Example of application Reductive Interval Arithmetic method for estimating resultant expanded uncertainty usign GNU Octave.
 
+Peer reviewed manuscript entitled "A Method for Estimating the Resultant Expanded Uncertainty Value Based on Interval Arithmetic" is available [DOI: 10.3390/app14167334](https://doi.org/10.3390/app14167334).
+
+The manuscript describes a method presented in example in details. The article explains the basic concepts and assumptions of the method discussed. It also presents the effectiveness of this method and compares it with the classical approach proposed by the [JCGM guide](https://www.bipm.org/documents/20126/2071204/JCGM_100_2008_E.pdf).
+
 ## How to use this example
 
 This example contains the 3 most important files `run_example`, `run_compare` and `run_multiple`. The remaining files are copies of the files contained in the [Octave-FWT-Utils](https://github.com/Kuszki/Octave-FWT-Utils) project.
@@ -33,4 +37,4 @@ All other files are part of [Octave-FWT-Utils](https://github.com/Kuszki/Octave-
 
 ## License
 
-This project is licensed under GPL-3.0 license.
+This project is licensed under GPL-3.0 license. Manuscript [DOI: 10.3390/app14167334](https://doi.org/10.3390/app14167334) is licensed under CC BY license.
